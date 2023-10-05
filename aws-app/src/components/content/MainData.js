@@ -6,7 +6,7 @@ import Company from "../../assets/company.png";
 
 export default function MainData(props) {
 	const data = props.data;
-	console.log("companyData", data);
+	// console.log("companyData", data);
 	return (
 		<div className="main-content-container">
 			<div className="main-content-data-wrapper">

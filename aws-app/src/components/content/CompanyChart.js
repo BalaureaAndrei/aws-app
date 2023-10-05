@@ -18,7 +18,7 @@ export default function CompanyRevenue(props) {
 			},
 		});
 		const generatedRevenueData = await generateRevenue.json();
-		console.log(generateRevenue);
+		// console.log(generateRevenue);
 
 		const dataArray =
 			generatedRevenueData.data.choices[0].message.content.split(",");

@@ -45,9 +45,12 @@ export default function Reviews(props) {
 					<ReviewsSkeleton />
 				) : (
 					<div className="reviews-wrapper">
-						{reviews.map((review) => {
+						{reviews.map((review, i) => {
 							return (
-								<div className="review bg-neutral-99">
+								<div
+									key={i}
+									className="review bg-neutral-99"
+								>
 									<div className="review-header">
 										<img
 											src={Avatar}

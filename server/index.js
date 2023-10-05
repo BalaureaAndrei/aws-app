@@ -93,7 +93,7 @@ app.post("/get-company-revenues", async (req, res) => {
 // 	res.sendFile(path.resolve(__dirname, "../aws-app/build", "index.html"));
 // });
 app.get("*", (req, res) => {
-	res.sendFile(path.join(__dirname + "../aws-app/build/index.html"));
+	res.sendFile(path.join(__dirname, "../aws-app/build/index.html"));
 });
 
 app.listen(PORT, () => {

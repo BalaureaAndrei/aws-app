@@ -12,11 +12,11 @@ export default function CompanyChangeModal(props) {
 		>
 			<div
 				id="dialog-1"
-				class="dialog opened"
+				className="dialog opened"
 			>
-				<div class="dialog-inner width-320">
-					<div class="text-title-l">Change company</div>
-					<p class="text-body-m">
+				<div className="dialog-inner width-320">
+					<div className="text-title-l">Change company</div>
+					<p className="text-body-m">
 						Use the multiselector to change the company or enter a company in
 						the user input
 					</p>
@@ -25,10 +25,10 @@ export default function CompanyChangeModal(props) {
 							e.preventDefault();
 						}}
 					>
-						<div class="input-wrapper">
+						<div className="input-wrapper">
 							<input
 								type="text"
-								class="input"
+								className="input"
 								placeholder="Company name"
 								value={companyInput}
 								onChange={(e) => {
@@ -38,7 +38,7 @@ export default function CompanyChangeModal(props) {
 						</div>
 					</form>
 					<button
-						class="button button-m outlined ripple dialog-action"
+						className="button button-m outlined ripple dialog-action"
 						data-close-dialog="dialog-1"
 						onClick={() => {
 							setIsModalOpened(false);
@@ -51,7 +51,7 @@ export default function CompanyChangeModal(props) {
 							setCompany(companyInput);
 							setIsModalOpened(false);
 						}}
-						class="button button-m ripple"
+						className="button button-m ripple"
 					>
 						<span>Save</span>
 					</button>

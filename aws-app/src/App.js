@@ -40,7 +40,7 @@ function App() {
 				},
 			});
 			const responseData = await response.json();
-			console.log("responseData", responseData);
+			// console.log("responseData", responseData);
 
 			const reworkedData = {
 				companyName: responseData.data.company_name,
@@ -63,7 +63,7 @@ function App() {
 			};
 
 			setData(reworkedData);
-			console.log("data", reworkedData);
+			// console.log("data", reworkedData);
 			setIsLoading(false);
 		} catch (error) {
 			console.log("error", error);
@@ -75,7 +75,7 @@ function App() {
 	useEffect(() => {
 		async function startApp() {
 			await fetchData(company);
-			console.log("data", company);
+			// console.log("data", company);
 		}
 		startApp();
 		// eslint-disable-next-line
