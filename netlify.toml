@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "aws-app/build"
+  functions = "server"
+  
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
