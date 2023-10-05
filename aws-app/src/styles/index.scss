@@ -1533,7 +1533,7 @@ input {
 
 .dialog-animate.opened {
 	opacity: 1;
-	z-index: 99999;
+	z-index: 9999999;
 	position: fixed;
 	transition: all 0.25s ease-in;
 }
