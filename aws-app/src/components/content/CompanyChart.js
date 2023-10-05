@@ -41,6 +41,7 @@ export default function CompanyRevenue(props) {
 
 	useEffect(() => {
 		getCompanyRevenue();
+		// eslint-disable-next-line
 	}, []);
 
 	if (loading) {

@@ -359,16 +359,6 @@ select {
 }
 
 /**
- * Correct the inability to style clickable types in iOS and Safari.
- */
-button,
-[type=button],
-[type=reset],
-[type=submit] {
-  -webkit-appearance: button;
-}
-
-/**
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
@@ -448,7 +438,6 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
 
@@ -502,7 +491,6 @@ template {
 
 /* Remove tap color on mobile */
 *:focus {
-  -webkit-tap-highlight-color: transparent;
   outline: none;
   touch-action: manipulation;
 }

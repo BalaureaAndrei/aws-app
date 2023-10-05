@@ -31,6 +31,7 @@ export default function Reviews(props) {
 
 	useEffect(() => {
 		getReviews();
+		// eslint-disable-next-line
 	}, []);
 
 	return (

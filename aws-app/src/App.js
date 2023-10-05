@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer";
 import MainContent from "./components/content/MainContent";
 import Logo from "./assets/main-logo.png";
 import Skeleton from "./components/helpers/Skeleton";
@@ -24,6 +23,7 @@ function App() {
 	const [data, setData] = useState([]);
 	const [isModalOpened, setIsModalOpened] = useState(false);
 	const [company, setCompany] = useState("Veridion");
+	// eslint-disable-next-line
 	const [address, setAddress] = useState(
 		"Str. Nicolae G. Caramfil 49, București 077190"
 	);
@@ -78,6 +78,7 @@ function App() {
 			console.log("data", company);
 		}
 		startApp();
+		// eslint-disable-next-line
 	}, [company]);
 
 	if (isLoading) {
