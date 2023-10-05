@@ -19,7 +19,7 @@ export default function MainData(props) {
 						<h2 className="text-title-l card-content-title color-neutral-99">
 							Employees
 						</h2>
-						<p className="text-body-l color-neutral-99">
+						<p className="text-body-m color-neutral-99">
 							{data.mainData.employees} employees
 						</p>
 					</div>
@@ -33,7 +33,7 @@ export default function MainData(props) {
 						<h2 className="text-title-l card-content-title color-neutral-99">
 							Business Tags
 						</h2>
-						<p className="text-body-l color-neutral-99">{data.tags}</p>
+						<p className="text-body-m color-neutral-99">{data.tags}</p>
 					</div>
 				</div>
 				<div className="card card-3 bg-tonal">
@@ -45,7 +45,7 @@ export default function MainData(props) {
 						<h2 className="text-title-l card-content-title color-neutral-99">
 							Industry
 						</h2>
-						<p className="text-body-l color-neutral-99">
+						<p className="text-body-m color-neutral-99">
 							{data.mainData.industry}
 						</p>
 					</div>
@@ -59,7 +59,7 @@ export default function MainData(props) {
 						<h2 className="text-title-l card-content-title color-neutral-99">
 							Year Founded
 						</h2>
-						<p className="text-body-l color-neutral-99">
+						<p className="text-body-m color-neutral-99">
 							Founded in {data.mainData.yearFounded}
 						</p>
 					</div>

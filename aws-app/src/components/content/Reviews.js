@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Avatar from "../../assets/avatar.png";
 import Button from "../helpers/Button";
 import ReviewsSkeleton from "../helpers/ReviewsSkeleton";
+import Star from "../../assets/star.png";
 
 export default function Reviews(props) {
 	const companyData = props.data;
@@ -18,10 +19,6 @@ export default function Reviews(props) {
 			},
 		});
 		const generatedReviews = await generateReviews.json();
-		console.log(
-			"generatedReviews",
-			generatedReviews.data.choices[0].message.content
-		);
 
 		// SET REVIEWS TO PREVIOUSLY GENERATED REVIEWS PLUS THE NEWLY GENERATED ONES
 		setReviews([...reviews, generatedReviews.data.choices[0].message.content]);
@@ -56,6 +53,28 @@ export default function Reviews(props) {
 											src={Avatar}
 											alt="x"
 										/>
+										<div className="stars">
+											<img
+												src={Star}
+												alt="star"
+											/>
+											<img
+												src={Star}
+												alt="star"
+											/>
+											<img
+												src={Star}
+												alt="star"
+											/>
+											<img
+												src={Star}
+												alt="star"
+											/>
+											<img
+												src={Star}
+												alt="star"
+											/>
+										</div>
 									</div>
 									<div className="review-content">
 										<h3 className="text-title-m bold name">User</h3>

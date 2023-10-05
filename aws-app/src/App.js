@@ -40,7 +40,6 @@ function App() {
 				},
 			});
 			const responseData = await response.json();
-			// console.log("responseData", responseData);
 
 			const reworkedData = {
 				companyName: responseData.data.company_name,
@@ -63,7 +62,8 @@ function App() {
 			};
 
 			setData(reworkedData);
-			// console.log("data", reworkedData);
+			setIsMobileHeaderOpened(false);
+			setIsModalOpened(false);
 			setIsLoading(false);
 		} catch (error) {
 			console.log("error", error);
@@ -106,6 +106,7 @@ function App() {
 				isOpened={isModalOpened}
 				setIsModalOpened={setIsModalOpened}
 				setCompany={setCompany}
+				setAddress={setAddress}
 			/>
 		</div>
 	);

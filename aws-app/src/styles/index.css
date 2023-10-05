@@ -1422,6 +1422,20 @@ input {
   margin-top: 16px !important;
 }
 
+.single-loading-small {
+  width: 100% !important;
+  height: 80px !important;
+  padding: 0 !important;
+  margin-top: 16px !important;
+}
+
+.single-loading-big {
+  width: 100% !important;
+  height: 400px !important;
+  padding: 0 !important;
+  margin-top: 16px !important;
+}
+
 .loading {
   display: flex;
   gap: 24px;
@@ -1529,6 +1543,10 @@ input {
      object-fit: contain;
 }
 
+.dialog button {
+  z-index: 0;
+}
+
 .main-content-data-wrapper {
   display: flex;
   gap: 24px;
@@ -1537,7 +1555,7 @@ input {
 .main-content-data-wrapper .card {
   padding: 16px;
   border-radius: 16px;
-  width: 200px;
+  width: 25%;
   height: 160px;
   display: flex;
   flex-direction: column;
@@ -1559,6 +1577,7 @@ input {
 .main-company-data .additional-data {
   padding: 16px;
   border-radius: 16px;
+  width: 400px;
   max-width: 400px;
 }
 .main-company-data .additional-data .logo img {
@@ -1568,6 +1587,24 @@ input {
 }
 .main-company-data .additional-data .addresses-and-contact {
   padding: 8px 16px;
+  border-radius: 16px;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.stars img {
+  width: 16px !important;
+  height: 16px;
+}
+
+.select-companies > div {
+  margin-top: 24px;
+  border-radius: 16px;
+}
+.select-companies > div .css-13cymwt-control {
   border-radius: 16px;
 }
 
@@ -1666,6 +1703,9 @@ input {
   }
 }
 @media only screen and (max-width: 800px) {
+  .review-header {
+    display: flex;
+  }
   .main-company-data .additional-data {
     flex-direction: column;
   }
@@ -1673,7 +1713,11 @@ input {
     padding: 24px;
   }
   .main-content-data-wrapper {
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .main-content-data-wrapper .card {
+    width: 100%;
   }
   .review {
     flex-direction: column !important;
@@ -1687,7 +1731,7 @@ input {
   }
   .main-content-data-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr !important;
   }
   .main-content-data-wrapper .card {
     width: 100%;

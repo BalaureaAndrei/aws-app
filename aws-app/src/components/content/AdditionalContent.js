@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "../helpers/Button";
 
 export default function AdditionalContent(props) {
 	const companyData = props.data;
@@ -48,12 +47,6 @@ export default function AdditionalContent(props) {
 						</h2>
 					</div>
 				</div>
-				<Button
-					size="l"
-					onClick={() => console.log("Hello")}
-				>
-					See reviews
-				</Button>
 			</div>
 		</div>
 	);
