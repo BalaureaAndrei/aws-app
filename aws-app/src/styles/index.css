@@ -1703,6 +1703,9 @@ input {
   }
 }
 @media only screen and (max-width: 800px) {
+  .sidebar-skeleton {
+    display: none !important;
+  }
   .review-header {
     display: flex;
   }

@@ -16,13 +16,26 @@ export default function AdditionalContent(props) {
 						<p className="text-body-l">{companyData.mainData.companyAdress}</p>
 					</div>
 					<div className="contact">
-						<p className="text-body-l">Phone: {companyData.companyPhone}</p>
-						<p className="text-body-l">Email: {companyData.companyEmail}</p>
+						<p className="text-body-l">
+							Phone:{" "}
+							<a href={`${"tel:" + companyData.companyPhone}`}>
+								{companyData.companyPhone}
+							</a>
+						</p>
+						<p className="text-body-l">
+							Email:{" "}
+							<a href={`${"mailto:" + companyData.companyEmail}`}>
+								{companyData.companyEmail}
+							</a>
+						</p>
 					</div>
 					<div className="website">
 						<p className="text-body-l">
 							Website:{" "}
-							<a href={companyData.companyWebsite}>
+							<a
+								target="blank"
+								href={companyData.companyWebsite}
+							>
 								{companyData.companyWebsite}
 							</a>
 						</p>
