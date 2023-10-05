@@ -1,0 +1,1846 @@
+@font-face {
+	font-family: "Google Sans";
+	font-style: normal;
+	font-weight: 475;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6mGS6vhAK1YobMu2rgCIhM907-0x.woff2)
+		format("woff2");
+	unicode-range: U+0308, U+0530-058F, U+2010, U+2024, U+25CC, U+FB13-FB17;
+}
+@font-face {
+	font-family: "Google Sans";
+	font-style: normal;
+	font-weight: 475;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6mGS6vhAK1YobMu2rACIhM907-0x.woff2)
+		format("woff2");
+	unicode-range: U+0964-0965, U+0980-09FE, U+1CF7, U+1CFA, U+200C-200D, U+20B9,
+		U+25CC;
+}
+@font-face {
+	font-family: "Google Sans";
+	font-style: normal;
+	font-weight: 475;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6mGS6vhAK1YobMu2swCIhM907-0x.woff2)
+		format("woff2");
+	unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+		U+FE2E-FE2F;
+}
+@font-face {
+	font-family: "Google Sans";
+	font-style: normal;
+	font-weight: 475;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6mGS6vhAK1YobMu2ugCIhM907-0x.woff2)
+		format("woff2");
+	unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+	font-family: "Google Sans";
+	font-style: normal;
+	font-weight: 475;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6mGS6vhAK1YobMu2vwCIhM907-0x.woff2)
+		format("woff2");
+	unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC,
+		U+A830-A839, U+A8E0-A8FF;
+}
+@font-face {
+	font-family: "Google Sans";
+	font-style: normal;
+	font-weight: 475;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6mGS6vhAK1YobMu2rwCIhM907-0x.woff2)
+		format("woff2");
+	unicode-range: U+1200-1399, U+2D80-2DDE, U+AB01-AB2E, U+1E7E0-1E7E6,
+		U+1E7E8-1E7EB, U+1E7ED-1E7EE, U+1E7F0-1E7FE;
+}
+@font-face {
+	font-family: "Google Sans";
+	font-style: normal;
+	font-weight: 475;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6mGS6vhAK1YobMu2oQCIhM907-0x.woff2)
+		format("woff2");
+	unicode-range: U+0589, U+10A0-10FF, U+1C90-1CBA, U+1CBD-1CBF, U+2D00-2D2F;
+}
+@font-face {
+	font-family: "Google Sans";
+	font-style: normal;
+	font-weight: 475;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6mGS6vhAK1YobMu2vQCIhM907-0x.woff2)
+		format("woff2");
+	unicode-range: U+0370-03FF;
+}
+@font-face {
+	font-family: "Google Sans";
+	font-style: normal;
+	font-weight: 475;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6mGS6vhAK1YobMu2pQCIhM907-0x.woff2)
+		format("woff2");
+	unicode-range: U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC,
+		U+A830-A839;
+}
+@font-face {
+	font-family: "Google Sans";
+	font-style: normal;
+	font-weight: 475;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6mGS6vhAK1YobMu2nQCIhM907-0x.woff2)
+		format("woff2");
+	unicode-range: U+0964-0965, U+0A01-0A76, U+200C-200D, U+20B9, U+25CC, U+262C,
+		U+A830-A839;
+}
+@font-face {
+	font-family: "Google Sans";
+	font-style: normal;
+	font-weight: 475;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6mGS6vhAK1YobMu2vACIhM907-0x.woff2)
+		format("woff2");
+	unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+@font-face {
+	font-family: "Google Sans";
+	font-style: normal;
+	font-weight: 475;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6mGS6vhAK1YobMu2tQCIhM907-0x.woff2)
+		format("woff2");
+	unicode-range: U+1780-17FF, U+19E0-19FF, U+200C, U+25CC;
+}
+@font-face {
+	font-family: "Google Sans";
+	font-style: normal;
+	font-weight: 475;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6mGS6vhAK1YobMu2twCIhM907-0x.woff2)
+		format("woff2");
+	unicode-range: U+0E81-0EDF, U+25CC;
+}
+@font-face {
+	font-family: "Google Sans";
+	font-style: normal;
+	font-weight: 475;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6mGS6vhAK1YobMu2pwCIhM907-0x.woff2)
+		format("woff2");
+	unicode-range: U+0964-0965, U+0B01-0B77, U+200C-200D, U+20B9, U+25CC;
+}
+@font-face {
+	font-family: "Google Sans";
+	font-style: normal;
+	font-weight: 475;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6mGS6vhAK1YobMu2owCIhM907-0x.woff2)
+		format("woff2");
+	unicode-range: U+0964-0965, U+0D81-0DF4, U+200C-200D, U+25CC, U+111E1-111F4;
+}
+@font-face {
+	font-family: "Google Sans";
+	font-style: normal;
+	font-weight: 475;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6mGS6vhAK1YobMu2qACIhM907-0x.woff2)
+		format("woff2");
+	unicode-range: U+0964-0965, U+0B82-0BFA, U+200C-200D, U+20B9, U+25CC;
+}
+@font-face {
+	font-family: "Google Sans";
+	font-style: normal;
+	font-weight: 475;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6mGS6vhAK1YobMu2ogCIhM907-0x.woff2)
+		format("woff2");
+	unicode-range: U+0951-0952, U+0964-0965, U+0C00-0C7F, U+1CDA, U+200C-200D,
+		U+25CC;
+}
+@font-face {
+	font-family: "Google Sans";
+	font-style: normal;
+	font-weight: 475;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6mGS6vhAK1YobMu2qgCIhM907-0x.woff2)
+		format("woff2");
+	unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+}
+@font-face {
+	font-family: "Google Sans";
+	font-style: normal;
+	font-weight: 475;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6mGS6vhAK1YobMu2sQCIhM907-0x.woff2)
+		format("woff2");
+	unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+		U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329,
+		U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+	font-family: "Google Sans";
+	font-style: normal;
+	font-weight: 475;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6mGS6vhAK1YobMu2sACIhM907-0x.woff2)
+		format("woff2");
+	unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF,
+		U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+	font-family: "Google Sans";
+	font-style: normal;
+	font-weight: 475;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesans/v58/4UaRrENHsxJlGDuGo1OIlJfC6mGS6vhAK1YobMu2vgCIhM907w.woff2)
+		format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+		U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+		U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+	font-family: "Google Symbols";
+	font-style: normal;
+	font-weight: 300 600;
+	font-display: block;
+	src: url(https://fonts.gstatic.com/s/googlesymbols/v203/Hhy3U5Ak9u-oMExPeInvcuEmPosC9zS3FYkFU68cPrjdKM1pSPywlmmzc_ohQP9XsVKU.woff2)
+		format("woff2");
+}
+.google-symbols {
+	font-family: "Google Symbols";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+	line-height: 1.15; /* 1 */
+}
+
+/* Sections
+	 ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+	margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+	display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+/* Grouping content
+	 ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+	box-sizing: content-box; /* 1 */
+	height: 0; /* 1 */
+	overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+	font-family: monospace, monospace; /* 1 */
+	font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+	 ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+	background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+	border-bottom: none; /* 1 */
+	text-decoration: underline; /* 2 */
+	text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+	font-family: monospace, monospace; /* 1 */
+	font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+	font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+/* Embedded content
+	 ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+	border-style: none;
+}
+
+/* Forms
+	 ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit; /* 1 */
+	font-size: 100%; /* 1 */
+	line-height: 1.15; /* 1 */
+	margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input {
+	/* 1 */
+	overflow: visible;
+	margin-top: 16px !important;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select {
+	/* 1 */
+	text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+	-webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+	padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+	box-sizing: border-box; /* 1 */
+	color: inherit; /* 2 */
+	display: table; /* 1 */
+	max-width: 100%; /* 1 */
+	padding: 0; /* 3 */
+	white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+	vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+	overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+	box-sizing: border-box; /* 1 */
+	padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+	-webkit-appearance: textfield; /* 1 */
+	outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button; /* 1 */
+	font: inherit; /* 2 */
+}
+
+/* Interactive
+	 ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+	display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+	display: list-item;
+}
+
+/* Misc
+	 ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+	display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+	display: none;
+}
+
+/* Remove tap color on mobile */
+*:focus {
+	-webkit-tap-highlight-color: transparent;
+	outline: none;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+}
+
+:root {
+	--color-primary: #06367a;
+	--color-secondary: #6663fe;
+	--color-tertiary: #00a0b6;
+	--color-tonal: #e06c9f;
+	--color-background: #ebf2fc;
+	--color-background-10: #f5f9fd;
+
+	--loading-grey: #dfdbdb;
+	--neutral-10: #1c1b1f;
+	--neutral-20: #313033;
+	--neutral-30: #484649;
+	--neutral-40: #605d62;
+	--neutral-50: #787579;
+	--neutral-60: #939094;
+	--neutral-70: #aeaaae;
+	--neutral-80: #c9c5ca;
+	--neutral-90: #e6e1e5;
+	--neutral-95: #f4eff4;
+	--neutral-99: #fffbfe;
+}
+
+/* SETUP */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: "Google Sans", sans-serif;
+}
+
+*:before,
+*:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+body {
+	background-color: var(--color-background);
+}
+
+html {
+	font-size: 16px;
+	font-family: "Roboto", sans-serif;
+}
+
+a {
+	color: var(--color-primary);
+	text-decoration: none;
+}
+
+::selection {
+	color: var(--neutral-99);
+	background: var(--color-primary);
+}
+
+.bg-primary {
+	background-color: var(--color-primary);
+}
+
+.bg-secondary {
+	background-color: var(--color-secondary);
+}
+
+.bg-tertiary {
+	background-color: var(--color-tertiary);
+}
+
+.bg-tonal {
+	background-color: var(--color-tonal);
+}
+
+.bg-secondary-tonal {
+	background-color: var(--color-background-10);
+}
+
+.color-primary {
+	color: var(--color-primary);
+}
+
+.color-neutral-99 {
+	color: var(--neutral-99);
+}
+
+.bg-neutral-99 {
+	background-color: var(--neutral-99);
+}
+
+/*--------------------------------------------------------------
+# SCROLLBAR
+--------------------------------------------------------------*/
+
+.scroll {
+	overflow: auto;
+	height: 100%;
+}
+
+::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #79747e;
+	border-radius: 4px;
+	transition: background-color 0.3s;
+}
+
+:hover::-webkit-scrollbar-thumb {
+	background-color: #605d66;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #cac4d0;
+}
+
+::-webkit-scrollbar-corner {
+	background-color: transparent;
+}
+
+/*--------------------------------------------------------------
+## BUTTONS PRIMARY
+--------------------------------------------------------------*/
+
+.button {
+	display: inline-flex;
+	flex: 0 0 auto;
+	position: relative;
+	height: 40px;
+	line-height: 24px;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	cursor: pointer;
+	padding: 0 24px;
+	margin: 0 8px 8px 0;
+	white-space: nowrap;
+	border: none;
+	vertical-align: middle;
+	outline: none;
+	font-size: 14px;
+	font-weight: 500;
+	color: #ffffff;
+	background-color: var(--color-primary);
+	border-radius: 999px;
+	-webkit-user-select: none;
+	user-select: none;
+	text-decoration: none;
+	z-index: 1;
+	transition: all 0.175s ease-in-out;
+}
+
+.button.button-icon {
+	padding-left: 16px;
+}
+
+.button:hover {
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),
+		0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+.button:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	background-color: #ffffff;
+	opacity: 0;
+	border-radius: 100px;
+	pointer-events: none;
+	transition: all 0.175s ease-in-out;
+}
+
+.button:hover:before {
+	opacity: 0.08;
+}
+
+.button:focus:before {
+	opacity: 0.12;
+}
+
+.button.disabled,
+.button[disabled] {
+	cursor: default;
+	color: var(--neutral-10);
+	background-color: transparent;
+}
+
+.button.disabled:hover,
+.button[disabled]:hover {
+	box-shadow: none;
+}
+
+.button.disabled > span,
+.button[disabled] > span {
+	color: var(--neutral-10);
+	opacity: 0.38;
+}
+
+.button.disabled:before,
+.button[disabled]:before {
+	background-color: #1f1f1f;
+	opacity: 0.12;
+}
+
+/*--------------------------------------------------------------
+## BUTTONS OUTLINED
+--------------------------------------------------------------*/
+
+.button.outlined {
+	border: 1px solid var(--neutral-80);
+	background-color: transparent;
+	color: var(--color-primary);
+}
+
+.button.outlined:hover:before {
+	opacity: 0.08;
+	background-color: currentColor;
+}
+
+.button.outlined:focus:before {
+	opacity: 0.12;
+	background-color: currentColor;
+}
+
+.button.outlined:focus {
+	border-color: var(--color-primary);
+}
+
+.button.outlined:hover {
+	box-shadow: none;
+}
+
+.button.outlined.disabled,
+.button.outlined[disabled] {
+	border-color: rgba(31, 31, 31, 0.12);
+}
+
+.button.outlined.disabled:before,
+.button.outlined[disabled]:before,
+.button.outlined.disabled:hover:before,
+.button.outlined[disabled]:hover:before,
+.button.outlined.disabled:focus:before,
+.button.outlined[disabled]:focus:before {
+	opacity: 0;
+}
+
+/*--------------------------------------------------------------
+## BUTTONS TEXT
+--------------------------------------------------------------*/
+
+.button.text {
+	background-color: transparent;
+	color: var(--neutral-99);
+}
+
+.button.text:hover {
+	background-color: var(--neutral-95);
+	color: var(--color-primary);
+}
+
+.button.text:hover:before {
+	opacity: 0.08;
+	background-color: currentColor;
+}
+
+.button.text:focus:before {
+	opacity: 0.12;
+	background-color: currentColor;
+}
+
+.button.text.disabled:before,
+.button.text[disabled]:before,
+.button.text.disabled:hover:before,
+.button.text[disabled]:hover:before,
+.button.text.disabled:focus:before,
+.button.text[disabled]:focus:before {
+	opacity: 0;
+}
+
+/*--------------------------------------------------------------
+## BUTTONS ELEVATED
+--------------------------------------------------------------*/
+
+.button.elevated {
+	color: var(--color-primary);
+	background-color: transparent;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3),
+		0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+.button.elevated:before {
+	background-color: var(--color-primary);
+	opacity: 0.05;
+}
+
+.button.elevated:hover:before {
+	background-color: var(--color-primary);
+	opacity: 0.08;
+}
+
+.button.elevated:focus:before {
+	background-color: var(--color-primary);
+	opacity: 0.11;
+}
+
+.button.elevated.disabled,
+.button.elevated[disabled] {
+	box-shadow: none;
+}
+
+.button.elevated.disabled:before,
+.button.elevated[disabled]:before,
+.button.elevated.disabled:hover:before,
+.button.elevated[disabled]:hover:before,
+.button.elevated.disabled:focus:before,
+.button.elevated[disabled]:focus:before {
+	background-color: #1f1f1f;
+	opacity: 0.12;
+}
+
+/*--------------------------------------------------------------
+## BUTTONS TONAL
+--------------------------------------------------------------*/
+
+.button.tonal {
+	color: var(--neutral-10);
+	background-color: var(--color-secondary);
+}
+
+.button.tonal:before {
+	background-color: currentColor;
+}
+
+.button.tonal.disabled,
+.button.tonal[disabled] {
+	cursor: default;
+	color: var(--neutral-10);
+	background-color: transparent;
+}
+
+.button.tonal.disabled:hover,
+.button.tonal[disabled]:hover {
+	box-shadow: none;
+}
+
+.button.tonal.disabled > span,
+.button.tonal[disabled] > span {
+	color: var(--neutral-10);
+	opacity: 0.38;
+}
+
+.button.tonal.disabled:before,
+.button.tonal[disabled]:before {
+	background-color: #1f1f1f;
+	opacity: 0.12;
+}
+
+/*--------------------------------------------------------------
+## BUTTONS SIZE
+--------------------------------------------------------------*/
+
+.button.button-s {
+	height: 24px;
+	font-size: 11px;
+	line-height: 16px;
+	letter-spacing: 0.5px;
+	padding: 0 16px;
+}
+
+.button.button-s.button-icon {
+	padding-left: 12px;
+}
+
+.button.button-m {
+	height: 32px;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.5px;
+	padding: 0 20px;
+}
+
+.button.button-m.button-icon {
+	padding-left: 14px;
+}
+
+/*--------------------------------------------------------------
+## BUTTONS SQUARE
+--------------------------------------------------------------*/
+
+.button.button-square {
+	height: 32px;
+	width: 32px;
+	background-color: transparent;
+	color: var(--color-primary);
+}
+
+.button.button-square:hover {
+	box-shadow: none;
+}
+
+.button.button-square:hover:before {
+	opacity: 0.08;
+	background-color: currentColor;
+}
+
+.button.button-square:focus:before {
+	opacity: 0.12;
+	background-color: currentColor;
+}
+
+.button.button-square.disabled:before,
+.button.button-square[disabled]:before,
+.button.button-square.disabled:hover:before,
+.button.button-square[disabled]:hover:before,
+.button.button-square.disabled:focus:before,
+.button.button-square[disabled]:focus:before {
+	opacity: 0;
+}
+
+.button.button-square > span {
+	font-size: 24px;
+}
+
+/*--------------------------------------------------------------
+# TYPOGRAPHY
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## TYPOGRAPHY -> TAGS
+--------------------------------------------------------------*/
+
+p {
+	margin: 8px 0 8px 0;
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-size: 14px;
+	line-height: 16px;
+	padding: 0 8px;
+	font-family: monospace;
+	background-color: var(--neutral-90);
+	border-radius: 4px;
+}
+
+pre {
+	padding: 8px;
+	-moz-tab-size: 2em; /* Firefox */
+	tab-size: 2em;
+}
+
+pre code {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+## TYPOGRAPHY -> HEADLINE
+--------------------------------------------------------------*/
+
+h4 {
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 28px;
+}
+
+.text-headline-l {
+	font-weight: normal !important;
+	font-size: 22px !important;
+	line-height: 28px !important;
+}
+
+h5 {
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.text-headline-m {
+	font-weight: normal !important;
+	font-size: 20px !important;
+	line-height: 24px !important;
+}
+
+h6 {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.text-headline-s {
+	font-weight: normal !important;
+	font-size: 18px !important;
+	line-height: 24px !important;
+}
+
+@media (min-width: 360px) {
+	h4 {
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+	.text-headline-l {
+		font-size: 32px !important;
+		line-height: 40px !important;
+	}
+
+	h5 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	.text-headline-m {
+		font-size: 28px !important;
+		line-height: 36px !important;
+	}
+
+	h6 {
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+	.text-headline-s {
+		font-size: 24px !important;
+		line-height: 32px !important;
+	}
+}
+
+/*--------------------------------------------------------------
+## TYPOGRAPHY -> DISPLAY
+--------------------------------------------------------------*/
+
+h1 {
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 40px;
+	letter-spacing: -0.25px;
+	margin: 0;
+}
+
+.text-display-l {
+	font-weight: normal !important;
+	font-size: 32px !important;
+	line-height: 40px !important;
+	letter-spacing: -0.25px !important;
+	margin: 0 !important;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 36px;
+	margin: 0;
+}
+
+.text-display-m {
+	font-weight: normal !important;
+	font-size: 28px !important;
+	line-height: 36px !important;
+	margin: 0 !important;
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 32px;
+	margin: 0;
+}
+
+.text-display-s {
+	font-weight: normal !important;
+	font-size: 22px !important;
+	line-height: 32px !important;
+	margin: 0 !important;
+}
+
+@media (min-width: 360px) {
+	h1 {
+		font-size: 40px;
+		line-height: 52px;
+	}
+
+	.text-display-l {
+		font-size: 40px !important;
+		line-height: 52px !important;
+	}
+
+	h2 {
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+	.text-display-m {
+		font-size: 32px !important;
+		line-height: 40px !important;
+	}
+
+	h3 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	.text-display-s {
+		font-size: 28px !important;
+		line-height: 36px !important;
+	}
+}
+
+@media (min-width: 600px) {
+	h1 {
+		font-size: 48px;
+		line-height: 58px;
+	}
+
+	.text-display-l {
+		font-size: 48px !important;
+		line-height: 58px !important;
+	}
+
+	h2 {
+		font-size: 36px;
+		line-height: 44px;
+	}
+
+	.text-display-m {
+		font-size: 36px !important;
+		line-height: 44px !important;
+	}
+
+	h3 {
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+	.text-display-s {
+		font-size: 32px !important;
+		line-height: 40px !important;
+	}
+}
+
+@media (min-width: 1264px) {
+	h1 {
+		font-size: 57px;
+		line-height: 64px;
+	}
+
+	.text-display-l {
+		font-size: 57px !important;
+		line-height: 64px !important;
+	}
+
+	h2 {
+		font-size: 45px;
+		line-height: 52px;
+	}
+
+	.text-display-m {
+		font-size: 45px !important;
+		line-height: 52px !important;
+	}
+
+	h3 {
+		font-size: 36px;
+		line-height: 44px;
+	}
+
+	.text-display-s {
+		font-size: 36px !important;
+		line-height: 44px !important;
+	}
+}
+
+@media (min-width: 1904px) {
+	h1 {
+		font-size: 72px;
+		line-height: 80px;
+	}
+
+	.text-display-l {
+		font-size: 72px !important;
+		line-height: 80px !important;
+	}
+
+	h2 {
+		font-size: 52px;
+		line-height: 64px;
+	}
+
+	.text-display-m {
+		font-size: 52px !important;
+		line-height: 64px !important;
+	}
+
+	h3 {
+		font-size: 45px;
+		line-height: 52px;
+	}
+
+	.text-display-s {
+		font-size: 45px !important;
+		line-height: 52px !important;
+	}
+}
+
+/*--------------------------------------------------------------
+## TYPOGRAPHY -> BODY
+--------------------------------------------------------------*/
+
+.text-body-l {
+	font-size: 16px !important;
+	line-height: 24px !important;
+	letter-spacing: 0.5px !important;
+}
+
+body,
+.text-body-m {
+	font-size: 14px !important;
+	line-height: 20px !important;
+	letter-spacing: 0.25px !important;
+}
+
+.text-body-s {
+	font-size: 12px !important;
+	line-height: 16px !important;
+	letter-spacing: 0.4px !important;
+}
+
+/*--------------------------------------------------------------
+## TYPOGRAPHY -> LABEL
+--------------------------------------------------------------*/
+
+.text-label-l {
+	font-weight: 500 !important;
+	font-size: 14px !important;
+	line-height: 20px !important;
+	letter-spacing: 0.1px !important;
+}
+
+.text-label-m {
+	font-weight: 500 !important;
+	font-size: 12px !important;
+	line-height: 16px !important;
+	letter-spacing: 0.5px !important;
+}
+
+.text-label-s {
+	font-weight: 500 !important;
+	font-size: 11px !important;
+	line-height: 16px !important;
+	letter-spacing: 0.5px !important;
+}
+
+/*--------------------------------------------------------------
+## TYPOGRAPHY -> TITLE
+--------------------------------------------------------------*/
+
+.text-title-l {
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 28px;
+	letter-spacing: 0;
+}
+
+.text-title-m {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.1px;
+}
+
+.text-title-s {
+	font-weight: 500 !important;
+	font-size: 14px !important;
+	line-height: 20px !important;
+	letter-spacing: 0.1px !important;
+}
+
+/*--------------------------------------------------------------
+# FONT WEIGHTS
+--------------------------------------------------------------*/
+
+.bold {
+	font-weight: 700 !important;
+}
+
+.medium {
+	font-weight: 500 !important;
+}
+
+.normal {
+	font-weight: 400 !important;
+}
+
+.thin {
+	font-weight: 100 !important;
+}
+
+/*--------------------------------------------------------------
+## TEXT ALIGN
+--------------------------------------------------------------*/
+
+.text-center {
+	text-align: center !important;
+}
+
+/*--------------------------------------------------------------
+## WHITE SPACE
+--------------------------------------------------------------*/
+
+.white-space-nowrap {
+	white-space: nowrap;
+}
+
+.elevation-0 {
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1), 0px 17px 24px rgba(0, 0, 0, 0.07) !important;
+}
+
+/*--------------------------------------------------------------
+# DIALOGS
+--------------------------------------------------------------*/
+
+.dialog {
+	position: fixed;
+	display: none;
+	top: 50%;
+	left: 50%;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 12000;
+}
+
+.dialog.opened {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+	transform: translate(-50%, -50%) scale(1);
+}
+
+.dialog.opening {
+	display: block;
+	animation: animate-dialog-open 0.175s 1 cubic-bezier(0.55, 0.085, 0.68, 0.53);
+	animation-fill-mode: forwards;
+}
+
+.dialog.closed {
+	display: block;
+	animation: animate-dialog-close 0.175s 1 cubic-bezier(0.55, 0.085, 0.68, 0.53);
+	animation-fill-mode: forwards;
+}
+
+.dialog-inner {
+	position: relative;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3), 0 8px 12px 6px rgba(0, 0, 0, 0.15) !important;
+	border-radius: 28px;
+	color: var(--neutral-10);
+	background-color: var(--neutral-99);
+	padding: 24px;
+	z-index: 1;
+	max-height: calc(100vh - 32px);
+	max-width: calc(100vw - 32px);
+	width: 320px;
+}
+
+input {
+	width: 100%;
+	padding: 8px 16px;
+	border-radius: 16px;
+	border: 1px solid gray;
+}
+
+.dialog-inner:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	background-color: var(--primary-40);
+	opacity: 0.14;
+	border-radius: 28px;
+}
+
+.dialog.persistent.anim {
+	animation-duration: 0.15s;
+	animation-name: animate-dialog;
+	animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@keyframes animate-dialog-open {
+	0% {
+		transform: translate(-50%, -50%) scale(0.9);
+		opacity: 0;
+		visibility: hidden;
+	}
+	100% {
+		transform: translate(-50%, -50%) scale(1);
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+@keyframes animate-dialog-close {
+	0% {
+		transform: translate(-50%, -50%) scale(1);
+		opacity: 1;
+		visibility: visible;
+	}
+	100% {
+		transform: translate(-50%, -50%) scale(0.9);
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+
+@keyframes animate-dialog {
+	0% {
+		transform: translate(-50%, -50%) scale(1);
+	}
+	50% {
+		transform: translate(-50%, -50%) scale(1.03);
+	}
+	100% {
+		transform: translate(-50%, -50%) scale(1);
+	}
+}
+
+.overlay {
+	position: fixed;
+	top: -100px;
+	left: -100px;
+	right: -100px;
+	bottom: -100px;
+	background-color: var(--neutral-10);
+	opacity: 0.3;
+	z-index: 11000;
+	animation: opacityOverlayOpen 0.175s 1 cubic-bezier(0.165, 0.84, 0.44, 1);
+	animation-fill-mode: forwards;
+	transition: opacity 0.175s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.d-none {
+	display: none !important;
+}
+
+.dialog-animate.closed {
+	opacity: 0;
+	z-index: -1;
+	position: fixed;
+	transition: all 0.25s ease-in;
+}
+
+.dialog-animate.opened {
+	opacity: 1;
+	z-index: 99999;
+	position: fixed;
+	transition: all 0.25s ease-in;
+}
+/*--------------------------------------------------------------
+## SKELETON
+--------------------------------------------------------------*/
+.review-loading {
+	width: 100% !important;
+	height: 40vh !important;
+	padding: 0 !important;
+	margin-top: 16px !important;
+}
+.loading {
+	display: flex;
+	gap: 24px;
+	width: 100vw;
+	padding: 16px;
+	height: 100vh;
+	.skeleton {
+		background-color: var(--loading-grey);
+		background: linear-gradient(
+				100deg,
+				rgba(255, 255, 255, 0) 40%,
+				rgba(255, 255, 255, 0.5) 50%,
+				rgba(255, 255, 255, 0) 60%
+			)
+			var(--loading-grey);
+		background-size: 200% 100%;
+		background-position-x: 180%;
+		animation: 1.7s loading ease-in-out infinite;
+	}
+	.sidebar-skeleton {
+		width: 300px;
+		height: 100%;
+		border-radius: 16px;
+	}
+	.loading-skeleton {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+	}
+	.content-skeleton {
+		height: 100%;
+		border-radius: 16px;
+		width: 100%;
+	}
+}
+
+@keyframes loading {
+	to {
+		background-position-x: -20%;
+	}
+}
+
+// APP STYLES
+
+.app-wrapper {
+	display: flex;
+	position: relative;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	padding: 40px;
+	max-width: 1480px;
+	margin: auto;
+}
+
+.header {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	height: 100vh;
+	border-radius: 0 16px 16px 0;
+	width: 240px;
+	background-color: var(--color-primary);
+	.header-container {
+		padding: 24px;
+		.menu {
+			margin-top: 24px;
+			img {
+				width: 24px;
+			}
+			button {
+				width: 100%;
+				justify-content: start;
+			}
+		}
+	}
+}
+
+.stars span {
+	font-size: 300%;
+	color: yellow;
+}
+
+.iframe-wrapper {
+	width: 100%;
+	height: 320px;
+	padding: 16px;
+	border-radius: 16px;
+	margin-top: 24px;
+	border: none;
+	iframe {
+		height: 100%;
+		border-radius: 16px;
+		width: 100%;
+		border: none;
+	}
+}
+
+.company-revenue {
+	margin-top: 24px;
+	.chart-wrapper {
+		background-color: var(--neutral-99);
+		border-radius: 16px;
+		padding: 16px;
+		margin-top: 24px;
+		canvas {
+			width: 100% !important;
+			height: 100% !important;
+			object-fit: contain;
+		}
+	}
+}
+
+.main-content-data-wrapper {
+	display: flex;
+	gap: 24px;
+	align-items: center;
+	.card {
+		padding: 16px;
+		border-radius: 16px;
+		width: 200px;
+		height: 160px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		img {
+			width: 40px;
+			height: 40px;
+		}
+	}
+}
+
+.main-company-data {
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+	gap: 60px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	.additional-data {
+		padding: 16px;
+		border-radius: 16px;
+		max-width: 400px;
+		.logo img {
+			width: 240px;
+			padding-bottom: 16px;
+			padding-top: 16px;
+		}
+		.addresses-and-contact {
+			padding: 8px 16px;
+			border-radius: 16px;
+		}
+	}
+}
+
+.description-wrapper {
+	padding: 16px 32px;
+	border-radius: 16px;
+	margin-top: 24px;
+}
+
+.additional-company-data {
+	margin-top: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	.card {
+		padding: 8px 16px;
+		border-radius: 16px;
+		display: flex;
+		align-items: center;
+		opacity: 0.8;
+	}
+}
+
+.main-content-container {
+	width: 100%;
+}
+
+.header-overlay {
+	display: none;
+}
+
+.headline {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	.burger-menu {
+		display: none;
+		img {
+			width: 32px;
+		}
+	}
+}
+
+.main-content-reviews-wrapper {
+	margin-top: 40px;
+	.reviews-wrapper {
+		margin-top: 24px;
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		.review {
+			padding: 16px;
+			border-radius: 16px;
+			gap: 40px;
+			display: flex;
+			img {
+				width: 80px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1280px) {
+	.main-company-data {
+		flex-direction: column;
+	}
+	.main-company-data .additional-data {
+		display: flex;
+		max-width: 100%;
+		width: 100%;
+		gap: 24px;
+		.additional-company-data {
+			min-width: 400px;
+			.card {
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.burger-menu {
+		display: block !important;
+	}
+	.header {
+		position: fixed;
+		top: 0;
+		left: -240px;
+		transition: all 0.1s ease-in;
+		z-index: 99998;
+	}
+	.header.opened {
+		left: 0;
+	}
+	.header-overlay {
+		display: block !important;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.main-company-data .additional-data {
+		flex-direction: column;
+	}
+	.container {
+		padding: 24px;
+	}
+	.main-content-data-wrapper {
+		flex-wrap: wrap;
+	}
+	.review {
+		flex-direction: column !important;
+		gap: 16px !important;
+	}
+}
+@media only screen and (max-width: 475px) {
+	.additional-company-data {
+		min-width: initial !important;
+		width: 100%;
+	}
+	.main-content-data-wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		.card {
+			width: 100%;
+			h2 {
+				font-size: 18px;
+			}
+		}
+	}
+}
